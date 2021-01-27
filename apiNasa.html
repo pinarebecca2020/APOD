@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Nasa</title>
+    <link rel="stylesheet" href="./apiNasa.css">
+</head>
+
+<body>
+    <h1>Bem-Vindo ao Astronomy Picture of the Day</h1>
+    <div id="buttonsGrid">
+        <input type="date" id="inputDate" min="1995-06-16">
+        <button id="refresh" class="btns">Gerar</button>
+        <button id="anterior" class="btns">Dia Anterior</button>
+        <button id="seguinte" class="btns">Dia Seguinte</button>
+    </div>
+
+    <div id="conteudo">
+        <div id="title"></div>
+        <div id="img"></div>
+    </div>
+
+    <span id="error"></span>
+
+
+</body>
+<script src="./apiNasa.js"></script>
+
+</html>
